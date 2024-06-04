@@ -16,7 +16,7 @@ li {
     list-style-type: none;
 }
 
-/* ===== HEADER ====== */
+/* ===== HEADER 1====== */
 
 header {
     width: 100%;
@@ -285,7 +285,7 @@ footer {
     margin: 0;
 }
 
-.grid-container {
+.footer-container {
     display: flex;
     padding-top: 80px;
     justify-content: center;
