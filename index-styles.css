@@ -182,7 +182,20 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s ease;
+}
 
+.btn:hover {
+    background-color: #811812;
+    transform: scale(1.1);
+}
+
+.content-feed a {
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+    margin-top: 45px;
 }
 
 .content-text a {
