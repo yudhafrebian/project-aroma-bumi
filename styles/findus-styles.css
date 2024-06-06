@@ -193,18 +193,15 @@ footer {
 }
 
 .footer-container {
-    display: grid;
-    grid-template-columns: 373px 140px 91px 187px;
-    justify-content: center;
-    gap: 100px;
+    display: flex;
     padding-top: 80px;
+    justify-content: center;
 }
 
 .footer-icon {
     display: flex;
     flex-direction: column;
     row-gap: 31px;
-    margin-right: 38px;
 }
 
 .footer-product {
@@ -212,12 +209,12 @@ footer {
     flex-direction: column;
     text-align: left;
     row-gap: 20px;
-
+    margin-left:138px;
 }
 
 .footer-store, .footer-contact {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-
+    margin-left: 100px;
 }
