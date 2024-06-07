@@ -1,6 +1,6 @@
 @media (max-width:360px) {
 
-/* ===== HEADER ====== */
+    /* ===== HEADER ====== */
 
     .top-wrapper {
         background-color: #0F8B8D;
@@ -43,93 +43,120 @@
 
     /* ===== MAIN ====== */
 
-    .content-title {
-        margin: 40px auto 20px auto;
+    .product-display img {
+        width: 279px;
+        height: 285px;
+        margin: 0;
+        object-fit: cover;
     }
-
-    .content-title h2 {
+    
+    .display-text h2 {
         font-size: 20px;
         font-weight: 700;
         line-height: 24px;
-        text-align: center;
+        text-align: left;
         color: #0F8B8D;
+        margin:0 auto;
     }
     
-    .content-title p {
+    .display-text p {
         font-size: 12px;
         font-weight: 400;
         line-height: 14.4px;
-        text-align: center;
+        text-align: left;
         color: #143642;
-    }
-
-    .name-menu {
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 14.4px;
-        text-align: center;
-        color: #F9FBFE;
-        margin-bottom: 0;
-        margin-top: 13px;
+        margin: 10px auto;
     }
     
-    .price {
+    .display-text h3 {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 36px;
+        text-align: left;
+        color: #0F8B8D;
+        margin-top: 0;
+    }
+
+    .product-description h2 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        color: #0F8B8D;
+        border-bottom: 2px solid #EC9A29;
+        width: 381px;
+        padding-bottom: 10px;
+        width: 280px;
+        margin: 0;
+    }
+
+    .product-description p {
         font-size: 12px;
         font-weight: 400;
         line-height: 14.4px;
+        text-align: left;
+        color: #143642;
+        margin-bottom: 30px;
+    }
+    
+    .product-description a {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.8px;
         text-align: center;
         color: #F9FBFE;
-        margin-top: 6px;
-        margin-bottom: 0;
     }
 
-    .content-item img {
-        width: 120px;
-        height: 90.08px;
-        margin: 0;
-        transition: all 0.6s ease;
-        z-index: 10;
+    .product-detail {
+        width: 279px;
+        margin: 20px auto 0px auto;  
     }
 
-    .content-item {
-        background-image: url(../Images/Coffee-background.png);
-        background-size: cover;
-        width: 135px;
-        height: 135px;
-        border-radius: 20px;  
-        position: relative;
+    .display-text {
+        width: 279px;
+    }
+
+    .product-display {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        margin: 0 auto;
+        gap: 0px;
+    }
+
+    .product-description {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 30px auto;
+    }
+    
+    .btn {
+        background-color: #A8201A;
+        width: 135px;
+        height: 28px;
+        border-radius: 55px;
+        display: flex;
         align-items: center;
+        justify-content: center;
+        transition: 0.5s ease;
+    }
+    
+    span {
+        width: 6px;
+        height: 7.1px;
+        transform: scaleX(-1);
+        display: flex;
+        align-items: center;
+        margin-right: 7px;
+    }
+    
+    .product-description a {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
         text-align: center;
-        transition: all 0.6s ease;
     }
 
-    .content-menu {
-        display: grid;
-        grid-template-columns: repeat(2, 135px);
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        gap: 10px 20px;
-        margin-bottom: 60px;
-        margin-top: 20px;
-    }
-
-    .content-item:hover img {
-        transform: translateY(-45px);
-    }
     
-    .content-item:hover .name-menu {
-        transform: translateY(80px);
-    }
-    
-    .content-item:hover .price {
-        transform: translateY(80px);
-    }
-
-
     /* ===== FOOTER ====== */
 
     footer {
