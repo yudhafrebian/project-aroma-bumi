@@ -30,6 +30,8 @@ header {
 
 .heading {
     display: flex;
+    justify-content: center;
+    gap: 433px;
 }
 
 .top-wrapper ul {
@@ -37,7 +39,6 @@ header {
     flex-direction: row;
     gap: 50px;
     margin-top: 54px;
-    margin-right: 138px;
 }
 
 .top-wrapper li {
@@ -52,7 +53,6 @@ header {
     width: 335px;
     height: 67px;
     margin-top: 39px;
-    margin-left: 138px;
 }
 
 .header-text h1 {
