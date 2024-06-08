@@ -24,6 +24,7 @@ header {
     border-radius: 20px;
     margin: auto;
     width: 100%;
+    max-width: 1920px;
 }
 
 .glass {
@@ -98,6 +99,7 @@ header {
 
 main {
     width: 100%;
+    max-width: 1920px;
 }
 
 .content-1 {
@@ -259,6 +261,7 @@ main {
 
 footer {
     width: 100%;
+    max-width: 1920px;
     height: 460px;
     background-color: #143642;
     border-radius: 30px;
