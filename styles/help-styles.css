@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 body {
-    /* max-width: 1440px; */
     width: 100%;
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -70,6 +69,10 @@ header {
     text-align: center;
     margin-top: 10px;
     display: block;
+}
+
+.top-wrapper a:hover {
+    color: #bdbdbd;
 }
 
 /* ===== MAIN ====== */
@@ -243,6 +246,10 @@ footer {
     color: #F9FBFE;
     margin-top: 38px;
     visibility: hidden;
+}
+
+.footer-container a:hover {
+    color: #a0702e;
 }
 
 .footer-container {
