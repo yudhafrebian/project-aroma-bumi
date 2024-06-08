@@ -16,6 +16,10 @@
 
 /* ===== HEADER ====== */
 
+    header {
+        width: 100%;
+    }
+
     .top-wrapper {
         background-color: #0F8B8D;
         height: 104px;
