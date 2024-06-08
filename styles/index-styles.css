@@ -22,6 +22,7 @@ header {
     max-height: 700px;
     border-radius: 20px;
     margin: auto;
+    width: 100%;
 }
 
 .glass {
