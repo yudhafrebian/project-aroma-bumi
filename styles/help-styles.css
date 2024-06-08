@@ -19,6 +19,7 @@ li {
 
 header {
     width: 100%;
+    max-width: 1920px;
 }
 
 .top-wrapper {
@@ -80,6 +81,7 @@ header {
 
 main {
     width: 100%;
+    max-width: 1920px;
 }
 
 .form-container a {
@@ -201,6 +203,7 @@ input::placeholder {
 
 footer {
     width: 100%;
+    max-width: 1920px;
     height: 460px;
     background-color: #143642;
     border-radius: 30px;
