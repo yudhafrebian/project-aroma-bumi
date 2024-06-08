@@ -61,6 +61,10 @@
 
     /* ===== MAIN ====== */
 
+    main {
+        width: 100%;
+    }
+
     .content-title {
         margin: 40px auto 20px auto;
     }
