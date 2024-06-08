@@ -1,0 +1,205 @@
+@media (max-width:360px) {
+
+    /* ===== HEADER ====== */
+
+    .top-wrapper {
+        background-color: #0F8B8D;
+        height: 104px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .logo   {
+        width: 135px;
+        height: 27px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .top-wrapper li {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.8px;
+        text-align: center;
+        color: #F9FBFE;
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin: 0 auto;
+    }
+
+    .top-wrapper ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+        /* ===== MAIN ====== */
+
+        .form-title h2 {
+            width: 280px;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            color: #0F8B8D;
+            margin: 40px auto 20px auto;
+        }
+
+        label {
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 14.4px;
+            min-width: 237px;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            height: 23px;
+            border-radius: 5px;
+            border: 1px solid #D2D2D2;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 12px;
+            padding-left: 16px;
+        }
+
+        input::placeholder {
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 12px;
+        }
+
+        textarea {
+            width: 100%;
+            max-width: 231px;
+            height: 100px;
+            border-radius: 5px;
+            border: 1px solid #D2D2D2;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28.8px;
+            color: #143642;
+            padding-left: 16px;
+            padding-top: 6px;
+        }
+
+        .message {
+            margin-bottom: 10px;
+        }
+
+        .form-group {
+            width: 215px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-items: center;
+        }
+
+        .form-container {
+            width: 280px;
+            border-radius:20px;
+            border: 2px solid #D2D2D2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin:0 auto;
+            margin-bottom: 100px;
+            padding: 30px 0;
+        }
+
+        .form-container a {
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 12px;        
+        }
+
+        .btn {
+            margin-top: 10px;
+            background-color: #A8201A;
+            width: 135px;
+            height: 28px;
+        }
+        
+    /* ===== FOOTER ====== */
+
+    footer {
+        width: 100%;
+        height: 362px;
+        background-color: #143642;
+        border-radius: 30px;
+    }
+
+    .footer-logo {
+        width: 145px;
+        height: 29px;
+
+    }
+
+    .mail {
+        width: 25px;
+        height: 20px; 
+        margin-right: 5px;
+    }
+
+    .phone {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+    }
+
+    .watermark {
+        visibility: visible;
+    }
+
+    .footer-nav {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        text-align: left;
+    }
+
+    .footer-nav-list {
+        font-family: Lato;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.4px;
+        margin-left: 30px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .footer-icon {
+        display: flex;
+        flex-direction: row;
+        column-gap: 73px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .footer-product {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-left: 40px;
+    }
+
+    .footer-store, .footer-contact {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+}
